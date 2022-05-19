@@ -1,7 +1,8 @@
 import { Component } from 'react';
-import Amplify, { API, graphqlOperation } from 'aws-amplify';
+import  { API, graphqlOperation } from 'aws-amplify';
 import {  createSubcribers} from './graphql/mutations';
 import awsExports from './aws-exports';
+import Amplify from '@aws-amplify/core'
 
 Amplify.configure(awsExports);
 
