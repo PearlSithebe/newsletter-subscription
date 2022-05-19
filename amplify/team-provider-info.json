@@ -10,6 +10,14 @@
       "StackName": "amplify-subcription-dev-142724",
       "StackId": "arn:aws:cloudformation:us-east-1:557043241176:stack/amplify-subcription-dev-142724/b8d2b1e0-d5dc-11ec-b5c0-0ef265fdfb27",
       "AmplifyAppId": "d3fiakjeimoako"
+    },
+    "categories": {
+      "hosting": {
+        "amplifyhosting": {
+          "appId": "d3fiakjeimoako",
+          "type": "cicd"
+        }
+      }
     }
   }
 }
