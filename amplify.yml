@@ -9,7 +9,7 @@ frontend:
   phases:
     preBuild:
       commands:
-        - eslint --fix
+        - rm -rf node_modules
         - npm ci
     build:
       commands:
